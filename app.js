@@ -29,6 +29,7 @@ app.engine('hbs', exphbs({
 }));
 app.set('view engine', 'hbs');
 
+//testing
 app.use(favicon(__dirname + '/public/assets/favicon.ico'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', require('./src/routes'));
